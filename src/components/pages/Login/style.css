@@ -1,0 +1,104 @@
+.container{
+    display: flex;
+    background-color: #1E1E1E;
+    height: 742px;
+}
+
+.frame {
+    width: 620px;
+    height: 720px;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+  
+.login {
+    margin-top: 200px;
+    margin-left: 270px;
+    width: 350px;
+    background-color: #1E1E1E;
+}
+
+.logo{
+    margin-left: 110px;
+    width: 120px;
+    height: 50px;
+}
+  
+.inputI {
+    height: 24px;
+    width: 270px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 20px;
+    border: 2px solid #FFFFFF;
+    padding: 5px;
+    background-color: transparent;
+}
+
+.inputI::placeholder{
+    color: #ACACAC;
+}
+
+.email{
+    margin-left: -35px;
+    margin-bottom: -5px;
+    width: 20px;
+}
+
+.inputII {
+    height: 24px;
+    width: 270px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 20px;
+    border: 2px solid #FFFFFF;
+    padding: 5px;
+    background-color: transparent;
+}
+
+.inputII::placeholder{
+    color: #ACACAC;
+}
+
+.key{
+    margin-left: -35px;
+    margin-bottom: -6px;
+}
+
+.esqueceuSenha{
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-left: 210px;
+    margin-top: 9px;
+}
+
+.entrar{
+    background-color: #A573F7;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 280px;
+    color: #1E1E1E;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.contaI{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.conta{
+    color: #D4D4D4;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.crie{
+    color: #A573F7;
+    font-size: 11px;
+    margin-left: 132px;
+    margin-top: -15px;
+}
