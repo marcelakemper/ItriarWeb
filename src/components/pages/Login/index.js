@@ -3,8 +3,7 @@ import frame from './frame.png'
 import itriar from './itriar.png'
 import keyIcon from './Key.png'
 import emailIcon from './email.png'
-import { Link } from 'react-router-dom';
-import Home from '../Home'
+import { Link, useHistory} from 'react-router-dom';
 import './style.css'
 
 const Login = () =>{
