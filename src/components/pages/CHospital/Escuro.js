@@ -1,6 +1,7 @@
 import React from 'react';
 import itriar from './itriar.png';
 import fotoperfil from './fotoperfil.png';
+import { Link, useHistory} from 'react-router-dom';
 import'./escuro.css'
 
 const Escuro = () =>{
@@ -33,6 +34,11 @@ const Escuro = () =>{
             <input className="inputsenha-escuro"/>
         </div>
 
+        <div>
+          <Link to="/CProfissional" >
+            <button className="continuar-escuro">Continuar</button>
+          </Link>
+        </div>
     </div>
   );
 }

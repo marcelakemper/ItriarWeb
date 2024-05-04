@@ -210,3 +210,14 @@
     margin-bottom: 125px;
     margin-left: 35px;
 }
+
+.continuar-escuro{
+    background-color: #A573F7;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 280px;
+    color: #FFFFFF;
+    margin-top: 650px;
+    margin-left: -320px;
+}
