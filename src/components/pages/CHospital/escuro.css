@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container-escuro{
+    background-color: #1E1E1E;
+    height: 742px;
+}
+
+.logo-escuro{
+    margin-left: 700px;
+    margin-top: 5px;
+    width: 70px;
+    height: 35px;
+}
+
+.fotoperfil-escuro{
+    margin-top: 45px;
+    margin-left: -65px;
+    width: 60px;
+    height: 60px;
+}
+
+.excluir-escuro{
+    color: #FFFFFF;
+    font-size: 10px;
+    margin-top: 110px;
+    margin-left: -60px;
+    width: 70px;  
+    font-family: "Poppins", sans-serif;
+}
+
+.form-escuro{
+    margin-left: -900px;
+    margin-top: 150px;
+    height: 600px;
+    width: 350px;
+}
+
+.dados-escuro{
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+
+.nome-escuro{
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 1px;
+    margin-top: -5px;
+    margin-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+
+.inputnome-escuro{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 125px;
+    margin-left: 35px;
+}
+
+.id-escuro{
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 1px;
+    margin-top: -115px;
+    margin-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+
+.inputid-escuro{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 125px;
+    margin-left: 35px;
+}
+
+.loc-escuro{
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 1px;
+    margin-top: -115px;
+    margin-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+
+.inputloc-escuro{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 125px;
+    margin-left: 35px;
+}
+
+.tel-escuro{
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 1px;
+    margin-top: -115px;
+    margin-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+
+.inputtel-escuro{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 125px;
+    margin-left: 35px;
+}
+
+.con-escuro{
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 1px;
+    margin-top: -115px;
+    margin-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+
+.inputcon-escuro{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 125px;
+    margin-left: 35px;
+}
+
+.redes-escuro{
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 1px;
+    margin-top: -115px;
+    margin-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+
+.inputredes-escuro{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 125px;
+    margin-left: 35px;
+}
+
+.acri-escuro{
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 1px;
+    margin-top: -115px;
+    margin-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+
+.inputacri-escuro{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 125px;
+    margin-left: 35px;
+}
+
+.senha-escuro{
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 1px;
+    margin-top: -115px;
+    margin-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+
+.inputsenha-escuro{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 125px;
+    margin-left: 35px;
+}

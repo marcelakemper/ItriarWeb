@@ -43,7 +43,7 @@ const Escuro = () =>{
         </div>
 
         <div className="contaI-escuro">
-          <Link to="/" className="conta-escuro">
+          <Link to="/CHospital" className="conta-escuro">
             Não tem uma conta ainda?<h3 className="crie-escuro">Crie</h3>
           </Link>
         </div>

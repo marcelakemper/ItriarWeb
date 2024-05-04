@@ -3,7 +3,7 @@ import Escuro from './Escuro';
 import Claro from './Claro';
 import './index.css'
 
-function Home() {
+function CHospital() {
   // Estado do modo inicial definido como claro por padrão
   const [modoEscuro, setModoEscuro] = useState(() => {
     // Verifica se há um estado de modo salvo no localStorage
@@ -43,4 +43,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default CHospital;

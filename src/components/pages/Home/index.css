@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    justify-content: center; /* Centraliza o botão horizontalmente */
+    margin-top: -65px;
+    margin-left: 1250px;
+}
+
+.button{
+    border-radius: 20px;
+    border: none;
+    background-color: #A573F7;
+}

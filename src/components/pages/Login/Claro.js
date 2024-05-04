@@ -43,7 +43,7 @@ const Claro = () =>{
         </div>
 
         <div className="contaI-claro">
-          <Link to="/" className="conta-claro">
+          <Link to="/CHospital" className="conta-claro">
             Não tem uma conta ainda?<h3 className="crie-claro">Crie</h3>
           </Link>
         </div>
