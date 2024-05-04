@@ -1,102 +1,102 @@
-.container{
+.container-claro{
     display: flex;
-    background-color: #1E1E1E;
+    background-color: #FFFFFF;
     height: 742px;
 }
 
-.frame {
+.FrameC-claro{
     width: 620px;
     height: 720px;
     margin-top: 15px;
     margin-left: 12px;
 }
   
-.login {
+.login-claro{
     margin-top: 200px;
     margin-left: 270px;
     width: 350px;
-    background-color: #1E1E1E;
+    background-color: #FFFFFF;
 }
 
-.logo{
+.logo-claro{
     margin-left: 110px;
     width: 120px;
     height: 50px;
 }
   
-.inputI {
+.inputI-claro{
     height: 24px;
     width: 270px;
     margin-top: 30px;
     margin-left: 40px;
     border-radius: 20px;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #C0C0C0;
     padding: 5px;
     background-color: transparent;
 }
 
-.inputI::placeholder{
+.inputI-claro::placeholder{
     color: #ACACAC;
 }
 
-.email{
+.email-claro{
     margin-left: -35px;
     margin-bottom: -5px;
     width: 20px;
 }
 
-.inputII {
+.inputII-claro{
     height: 24px;
     width: 270px;
     margin-top: 20px;
     margin-left: 40px;
     border-radius: 20px;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #C0C0C0;
     padding: 5px;
     background-color: transparent;
 }
 
-.inputII::placeholder{
+.inputII-claro::placeholder{
     color: #ACACAC;
 }
 
-.key{
+.key-claro{
     margin-left: -35px;
     margin-bottom: -6px;
 }
 
-.esqueceuSenha{
+.esqueceuSenha-claro{
     background-color: transparent;
     border: none;
-    color: #FFFFFF;
+    color: #000000a5;
     font-size: 12px;
     margin-left: 210px;
     margin-top: 9px;
 }
 
-.entrar{
+.entrar-claro{
     background-color: #A573F7;
     border: none;
     border-radius: 20px;
     height: 40px;
     width: 280px;
-    color: #1E1E1E;
+    color: #FFFFFF;
     margin-top: 80px;
     margin-left: 40px;
 }
 
-.contaI{
+.contaI-claro{
     margin-top: 20px;
     margin-left: 100px;
 }
 
-.conta{
-    color: #D4D4D4;
+.conta-claro{
+    color: #404040;
     font-size: 11px;
     text-decoration: none;
 }
 
-.crie{
+.crie-claro{
     color: #A573F7;
     font-size: 11px;
     margin-left: 132px;

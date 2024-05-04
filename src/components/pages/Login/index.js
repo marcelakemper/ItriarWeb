@@ -1,52 +1,43 @@
-import React from 'react';
-import frame from './frame.png'
-import itriar from './itriar.png'
-import keyIcon from './Key.png'
-import emailIcon from './email.png'
-import { Link, useHistory} from 'react-router-dom';
-import './style.css'
+import React, { useState, useEffect } from 'react';
+import Escuro from './Escuro';
+import Claro from './Claro';
+import './index.css'
 
-const Login = () =>{
+function Login() {
+  // Estado do modo inicial definido como claro por padrão
+  const [modoEscuro, setModoEscuro] = useState(() => {
+    // Verifica se há um estado de modo salvo no localStorage
+    const modoSalvo = localStorage.getItem('modoEscuro');
+    // Se houver um estado salvo, retorna o estado convertido para booleano
+    return modoSalvo ? JSON.parse(modoSalvo) : false;
+  });
 
-  const [email, onChangeTextEmail] = React.useState('');
-  const [senha, onChangeTextSenha] = React.useState('');
+  // Função para alternar o modo e salvar o estado no localStorage
+  const toggleModo = () => {
+    const novoModo = !modoEscuro;
+    setModoEscuro(novoModo);
+    // Salva o novo estado do modo no localStorage
+    localStorage.setItem('modoEscuro', JSON.stringify(novoModo));
+  };
+
+  // Efeito para carregar o estado do modo ao carregar a página
+  useEffect(() => {
+    const modoSalvo = localStorage.getItem('modoEscuro');
+    if (modoSalvo !== null) {
+      // Define o estado do modo com base no valor salvo no localStorage
+      setModoEscuro(JSON.parse(modoSalvo));
+    }
+  }, []); // Executa apenas uma vez ao carregar a página
 
   return (
-    <div className="container">
-      <div>
-        <img src={frame} alt="frame" className="frame"/>
+    <div className="App">
+      <div className="container">
+        {modoEscuro ? <Escuro /> : <Claro />}
       </div>
-
-      <div className="login">
-        <div>
-          <img src={itriar} alt="logo" className="logo"/>
-        </div>
-
-        <div>
-          <input className="inputI" id="idbotao" value={email} placeholder="Email ou ID hospitalar"/>
-          <img src={emailIcon} alt="email" className="email"/>
-        </div>
-
-        <div>
-          <input className="inputII" id="idbotao" value={senha} placeholder="Senha"/>
-          <img src={keyIcon} alt="key" className="key"/>
-        </div>
-
-        <div>
-          <button id="EsqueceuSenha" className="esqueceuSenha">Esqueceu a senha?</button>
-        </div>
-
-        <div>
-          <Link to="/Home" >
-            <button className="entrar">Entrar</button>
-          </Link>
-        </div>
-
-        <div className="contaI">
-          <Link to="/" className="conta">
-            Não tem uma conta ainda?<h3 className="crie">Crie</h3>
-          </Link>
-        </div>
+      <div className="footer">
+        <button onClick={toggleModo} className="button">
+          {modoEscuro ? 'Modo claro' : 'Modo escuro'}
+        </button>
       </div>
     </div>
   );
