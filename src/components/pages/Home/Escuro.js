@@ -6,6 +6,7 @@ import estrela from './estrela.png'
 import atendimento from './atendimento.png'
 import espera from './espera.png'
 import Settings from './Settings.png'
+import Func from './Func.png'
 import { Link, useHistory} from 'react-router-dom';
 import './escuro.css'
 
@@ -33,7 +34,12 @@ const Escuro = () =>{
 
       <div className="containerI-escuro">
         <div>
-          <input placeholder="Nome do paciente" className="nome-escuro"/>
+          <Link to="/">
+            <img src={Func} alt="Func" className="Func-escuro"/>
+          </Link>
+          <img src={atendimento} alt="sinal atendimento" className="sinalAA-escuro"/>
+          <h2 className="ana-escuro">Ana Clara da Silva Moura</h2>
+          <h2 className="ped-escuro">Pediatra</h2>
         </div>
 
         <div>
@@ -63,7 +69,9 @@ const Escuro = () =>{
       
       <img src={espera} alt="sinal espera" className="sinalE-escuro"/>   
 
-      <img src={Settings} alt="Settings" className="Settings-escuro"/>   
+      <Link to="/Configuracao">
+        <img src={Settings} alt="Settings" className="Settings-escuro"/>   
+      </Link>
     </div>
   );
 }
