@@ -1,5 +1,6 @@
+
 .container-claro{
-    background-color: #FFFFFF;
+    background-color: #1E1E1E;
     height: 742px;
 }
 
@@ -18,7 +19,7 @@
 
 .h2-claro{
     margin-top: 15px;
-    margin-left: 600px;
+    margin-left: 500px;
     color: #FFFFFF;
     font-size: 18px;
 }
@@ -26,7 +27,7 @@
 .fotoperfil-claro{
     width: 40px;
     height: 40px;
-    margin-left: 660px;
+    margin-left: -20px;
     margin-top: 7px;
 }
 
@@ -62,7 +63,7 @@
     margin-top: 100px;
     margin-left: -350px;
     border-radius: 20px;
-    background-color: #78787898;
+    background-color: #787878;
     border: none;
     width: 300px;
     height: 30px;
@@ -74,7 +75,7 @@
 }
 
 .containerI-claro{
-    background-color: #d6d6d655;
+    background-color: #989898;
     margin-left: -1470px;
     width: 1445px;
     height: 560px;
@@ -89,7 +90,7 @@
     margin-left: 20px;
     margin-top: 10px;
     width: 1100px;
-    height: 30px;
+    height: 100px;
 }
 
 .nome-claro::placeholder{
@@ -100,7 +101,7 @@
 
 .line-claro{
     margin-left: 1200px;
-    margin-top: -145px;
+    margin-top: -125px;
     height: 520px;
 }
 
@@ -131,8 +132,8 @@
 }
 
 .sinalA-claro{
-    margin-left: -290px;
-    margin-top: 260px;
+    margin-left: -400px;
+    margin-top: 240px;
     width: 18px;
     height: 18px;
 }
@@ -145,7 +146,14 @@
 
 .sinalE-claro{
     margin-left: -17px;
-    margin-top: 290px;
+    margin-top: 275px;
     width: 18px;
     height: 18px;
+}
+
+.Settings-claro{
+    width: 20px;
+    height: 20px;
+    margin-top: 675px;
+    margin-left: 110px;
 }

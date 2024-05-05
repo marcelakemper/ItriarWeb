@@ -5,6 +5,8 @@ import line from './line.png'
 import estrela from './estrela.png'
 import atendimento from './atendimento.png'
 import espera from './espera.png'
+import Settings from './Settings.png'
+import { Link, useHistory} from 'react-router-dom';
 import './escuro.css'
 
 const Escuro = () =>{
@@ -14,8 +16,11 @@ const Escuro = () =>{
       <div className="header-escuro">
         <img src={itriar} alt="logo" className="logo-escuro"/>
         <h2 className="h2-escuro">Home</h2>
-        <img src={fotoperfil} alt="foto perfil" className="fotoperfil-escuro"/>
       </div>
+
+      <Link to="/">
+        <img src={fotoperfil} alt="foto perfil" className="fotoperfil-escuro"/>
+      </Link>
 
       <div>
         <button type="button" className="buttonPaciente-escuro">Pacientes</button>
@@ -56,7 +61,9 @@ const Escuro = () =>{
       <img src={atendimento} alt="sinal atendimento" className="sinalA-escuro"/>
 
       
-      <img src={espera} alt="sinal espera" className="sinalE-escuro"/>      
+      <img src={espera} alt="sinal espera" className="sinalE-escuro"/>   
+
+      <img src={Settings} alt="Settings" className="Settings-escuro"/>   
     </div>
   );
 }

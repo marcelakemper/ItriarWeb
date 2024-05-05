@@ -5,6 +5,8 @@ import line from './line.png'
 import estrela from './estrela.png'
 import atendimento from './atendimento.png'
 import espera from './espera.png'
+import SettingsC from './SettingsC.png'
+import { Link, useHistory} from 'react-router-dom';
 import './claro.css'
 
 const Claro = () =>{
@@ -14,8 +16,11 @@ const Claro = () =>{
       <div className="header-claro">
         <img src={itriar} alt="logo" className="logo-claro"/>
         <h2 className="h2-claro">Home</h2>
-        <img src={fotoperfil} alt="foto perfil" className="fotoperfil-claro"/>
       </div>
+
+      <Link to="/">
+        <img src={fotoperfil} alt="foto perfil" className="fotoperfil-claro"/>
+      </Link>
 
       <div>
         <button type="button" className="buttonPaciente-claro">Pacientes</button>
@@ -56,7 +61,9 @@ const Claro = () =>{
       <img src={atendimento} alt="sinal atendimento" className="sinalA-claro"/>
 
       
-      <img src={espera} alt="sinal espera" className="sinalE-claro"/>      
+      <img src={espera} alt="sinal espera" className="sinalE-claro"/>   
+
+      <img src={SettingsC} alt="Settings" className="SettingsC-claro"/>   
     </div>
   );
 }
