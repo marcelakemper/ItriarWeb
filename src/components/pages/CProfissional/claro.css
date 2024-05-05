@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container-claro{
+    background-color: #FFFFFF;
+    height: 742px;
+}
+
+.logo-claro{
+    margin-left: 700px;
+    margin-top: 5px;
+    width: 70px;
+    height: 35px;
+}
+
+.fotoperfil-claro{
+    margin-top: 45px;
+    margin-left: -65px;
+    width: 60px;
+    height: 60px;
+}
+
+.excluir-claro{
+    color: #000000;
+    font-size: 10px;
+    margin-top: 110px;
+    margin-left: -60px;
+    width: 70px;  
+    font-family: "Poppins", sans-serif;
+}
+
+.form-claro{
+    margin-left: -900px;
+    margin-top: 150px;
+    height: 600px;
+    width: 350px;
+}
+
+.dados-claro{
+    color: #000000;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.nome-claro{
+    background-color: transparent;
+    color: #000000;
+    font-size: 12px;
+    height: 1px;
+    margin-top: -5px;
+    margin-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.inputnome-claro{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 125px;
+    margin-left: 35px;
+}
+
+.data-claro{
+    background-color: transparent;
+    color: #000000;
+    font-size: 12px;
+    height: 1px;
+    margin-top: -115px;
+    margin-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.inputdata-claro{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 125px;
+    margin-left: 35px;
+}
+
+.id-claro{
+    background-color: transparent;
+    color: #000000;
+    font-size: 12px;
+    height: 1px;
+    margin-top: -115px;
+    margin-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.inputid-claro{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 125px;
+    margin-left: 35px;
+}
+
+.tel-claro{
+    background-color: transparent;
+    color: #000000;
+    font-size: 12px;
+    height: 1px;
+    margin-top: -115px;
+    margin-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.inputtel-claro{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 125px;
+    margin-left: 35px;
+}
+
+.endereco-claro{
+    background-color: transparent;
+    color: #000000;
+    font-size: 12px;
+    height: 1px;
+    margin-top: -115px;
+    margin-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.inputendereco-claro{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 125px;
+    margin-left: 35px;
+}
+
+.Especialidade-claro{
+    background-color: transparent;
+    color: #000000;
+    font-size: 12px;
+    height: 1px;
+    margin-top: -115px;
+    margin-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.inputEspecialidade-claro{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 125px;
+    margin-left: 35px;
+}
+
+.crm-claro{
+    background-color: transparent;
+    color: #000000;
+    font-size: 12px;
+    height: 1px;
+    margin-top: -115px;
+    margin-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.inputcrm-claro{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 125px;
+    margin-left: 35px;
+}
+
+.senha-claro{
+    background-color: transparent;
+    color: #000000;
+    font-size: 12px;
+    height: 1px;
+    margin-top: -115px;
+    margin-left: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.inputsenha-claro{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 125px;
+    margin-left: 35px;
+}
+
+.continuar-claro{
+    background-color: #A573F7;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 280px;
+    color: #000000;
+    margin-top: 650px;
+    margin-left: -320px;
+}
